@@ -1,0 +1,16 @@
+{
+  "name": "1ambd4.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1ambd4/1ambd4.github.io.git",
+  "author": "1ambd4 <dr.chen@mail.ustc.edu.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs"
+  }
+}

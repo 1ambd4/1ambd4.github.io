@@ -12,6 +12,7 @@ module.exports = {
     searchMaxSuggestions: 10,
     nav: [
       { text: "Home", link: "/" },
+      { text: "Timeline", link: "/timeline/" },
       {
         text: "1ambd4",
         items: [{ text: "Github", link: "https://github.com/1ambd4" }],
